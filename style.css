@@ -317,6 +317,9 @@ section {
 
 #experience {
   position: relative;
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scrollbar-width: none; /* Optional: For thin scrollbar (Firefox) */
+  scrollbar-color: #888 #f0f0f0;
 }
 
 .experience-sub-title {
@@ -330,6 +333,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  max-width:fit-content
 }
 
 .article-container {
